@@ -4,5 +4,7 @@ syntax:expression: exec
         echo \"File $VAR(@) does not exist or is not executable\"; \
         exit 1; \
     fi; "
+syntax:expression: pattern $VAR(@) "^[\/-_a-zA-Z0-9]+$" ; "Invalid cron filename \"$VAR(@)\" (allowed: letters, digits, dash, hyphen)"
+syntax:expression: exec "/opt/vyatta/sbin/check_file_in_config_dir $VAR(@) '/config/scripts'"
 help: Path to executable
 
