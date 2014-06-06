@@ -38,11 +38,13 @@ sub error
 
 sub update_crontab
 {
+    my $count = 0;
     my $config = new Vyatta::Config();
 
     if( !$config->exists("system task-scheduler task") )
     {
         # Nothing to do
+        system("rm -rf $crontab");
         exit(0);
     }
 
@@ -139,12 +141,18 @@ sub update_crontab
         }
 
         $crontab_append .= $crontab_string;
+        $count++;
     }
 
-    open(HANDLE, ">$crontab") || die("Could not open /etc/crontab for write");
-    select(HANDLE);
-    print $crontab_append;
-    close(HANDLE);
+    if ($count > 0) {
+        open(HANDLE, ">$crontab") 
+            || die("Could not open /etc/crontab for write");
+        select(HANDLE);
+        print $crontab_append;
+        close(HANDLE);
+    } else {
+        system("rm -rf $crontab");
+    }
 }
 
 update_crontab();
