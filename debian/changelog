@@ -1,3 +1,12 @@
+vyatta-cron (1.0.3+vyos1+helium5) unstable; urgency=low
+
+  [ Stig Thormodsrud ]
+  * Fix bug 695 - task-scheduler: delete on 1 task, deletes them all
+
+  [ Daniil Baturin ]
+
+ -- Daniil Baturin <daniil@baturin.org>  Sun, 15 Jun 2014 23:27:00 +0200
+
 vyatta-cron (1.0.3+vyos1+helium4) unstable; urgency=low
 
   * Bug 215: add value checks for intervals.
