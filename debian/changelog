@@ -1,3 +1,9 @@
+vyatta-cron (1.0.3+hydrogen5) unstable; urgency=low
+
+  * Force release
+
+ -- Daniil Baturin <daniil@baturin.org>  Mon, 16 Jun 2014 14:33:52 +0200
+
 vyatta-cron (1.0.3+hydrogen4) unstable; urgency=low
 
   [ Stig Thormodsrud ]
