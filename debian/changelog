@@ -1,3 +1,9 @@
+vyatta-cron (1.0.3+vyos1+helium8) unstable; urgency=low
+
+  * Get the file in config dir check back, since it's not fatal.
+
+ -- Daniil Baturin <daniil@baturin.org>  Wed, 02 Jul 2014 00:22:08 +0200
+
 vyatta-cron (1.0.3+vyos1+helium7) unstable; urgency=low
 
   [ Stig Thormodsrud ]
