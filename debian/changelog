@@ -1,3 +1,14 @@
+vyatta-cron (1.0.3+vyos1+helium7) unstable; urgency=low
+
+  [ Stig Thormodsrud ]
+  * Fix bug 697 - task-scheduler: should verify valid cron file name
+  * Fix bug 696 - task-scheduler: restart script missing
+
+  [ Daniil Baturin ]
+  * First check is not needed, the second check is probably too limiting
+
+ -- Daniil Baturin <daniil@baturin.org>  Wed, 02 Jul 2014 00:15:40 +0200
+
 vyatta-cron (1.0.3+vyos1+helium6) unstable; urgency=low
 
   * Force release
