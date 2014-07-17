@@ -26,7 +26,7 @@ Example:
                     path /config/scripts/mytask
                     arguments "arg1 arg2 arg3"
             task anothertask
-                cron-spec "* * * 1 *"
+                crontab-spec "* * * 1 *"
                 executable
                     path /config/scripts/anothertask
 
@@ -64,7 +64,7 @@ Run every 7 days:
 
 This is usual UNIX cron time spec. For the cases "interval" is not enough.
 
-    set system task-scheduler task TEST cron-spec "* * * 1 *"
+    set system task-scheduler task TEST crontab-spec "* * * 1 *"
 
 ## executable
 Path and arguments of the executable to run.
