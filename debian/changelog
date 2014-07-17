@@ -1,3 +1,10 @@
+vyatta-cron (1.0.3+vyos1+helium9) unstable; urgency=low
+
+  * Fix cron-spec vs. crontab-spec in README.
+  * More cron-spec vs crontab-spec errors.
+
+ -- Daniil Baturin <daniil@baturin.org>  Thu, 17 Jul 2014 17:33:14 +0200
+
 vyatta-cron (1.0.3+vyos1+helium8) unstable; urgency=low
 
   * Get the file in config dir check back, since it's not fatal.
