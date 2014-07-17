@@ -10,7 +10,7 @@ Configuration commands:
     system
         task-scheduler
             task <name>
-                cron-spec <UNIX cron time spec>
+                crontab-spec <UNIX cron time spec>
                 executable
                     arguments <arguments string>
                     path <path to executable>
