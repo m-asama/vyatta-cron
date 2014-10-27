@@ -1,0 +1,3 @@
+type: txt
+help: Execution user
+val_help: <user>; User to execute cronjob as, default is 'root'
