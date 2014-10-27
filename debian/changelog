@@ -1,3 +1,15 @@
+vyatta-cron (1.0.3+vyos2+lithium2) unstable; urgency=low
+
+  * Force release
+
+ -- Daniil Baturin <dmbaturin@squeeze32devel.multi.eu>  Mon, 27 Oct 2014 21:55:48 +0100
+
+vyatta-cron (1.0.3+vyos2+lithium1) unstable; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Mon, 27 Oct 2014 20:54:47 +0000
+
 vyatta-cron (1.0.3+vyos1+helium9) unstable; urgency=low
 
   * Fix cron-spec vs. crontab-spec in README.
