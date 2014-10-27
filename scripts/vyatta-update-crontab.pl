@@ -60,7 +60,7 @@ sub update_crontab
         my $hours = "*";
         my $days ="*";
 
-        my $user = $default_user;
+        my $user = undef;
         my $executable = undef;
         my $arguments = undef;
 
@@ -72,6 +72,13 @@ sub update_crontab
         # Unused now
         my $months = "*";
         my $days_of_week = "*";
+
+        # User is optional - Default to user ROOT
+        $user = $config->returnValue("$task user");
+        if( !defined($user) )
+        {
+            $user = $default_user;
+        }
 
         # Executable is mandatory
         $executable = $config->returnValue("$task executable path");
