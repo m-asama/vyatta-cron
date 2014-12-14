@@ -1,3 +1,12 @@
+vyatta-cron (1.0.3+vyos2+lithium3) unstable; urgency=low
+
+  [ Jason Hendry ]
+  * Allow cronjob execution user to be modified
+  
+  [ Alex Harpin ]
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sun, 14 Dec 2014 12:44:08 +0000
+ 
 vyatta-cron (1.0.3+vyos2+lithium2) unstable; urgency=low
 
   * Force release
