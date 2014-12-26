@@ -1,3 +1,9 @@
+vyatta-cron (1.0.3+vyos2+lithium4) unstable; urgency=low
+
+  * Update maintainer address
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Fri, 26 Dec 2014 10:56:31 +0000
+ 
 vyatta-cron (1.0.3+vyos2+lithium3) unstable; urgency=low
 
   [ Jason Hendry ]
