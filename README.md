@@ -1,11 +1,14 @@
 vyatta-cron
 ===========
 
-This package is **no longer used** by VyOS 1.2.0+
+It was vyatta-cron, a Vyatta CLI for cron (what else?).
 
-The re-implementation of its functionality can be found in the [vyos-1x](https://github.com/vyos/vyos-1x) package.
+It served as an example of how to make a Vyatta Core addon package.
 
-It is kept under /vyos organization because it's still used by older VyOS versions. To get the older version used by VyOS 1.1.x,
-switch to the *helium* branch.
+It got included in EdgeOS before the VyOS project has started.
 
-Please do not submit any new functionality to this repository, only bugfixes. All new functionality should go to vyos-1x.
+It got integrated into VyOS in the early days of the project. Then it served as an example of how to make a new VyOS package.
+
+It was also the first package to get rewritten in the new style with CLI definitions in XML and scripts in Python.
+
+It served as well, but its time is over. The new functionality lived in https://github.com/vyos/vyos-1x, together with the rest of rewritten code.
